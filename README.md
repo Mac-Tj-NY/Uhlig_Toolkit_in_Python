@@ -20,5 +20,7 @@ Solved examples with impulse responses:  za_impresp_example_xx.ipynb
 Solved examples with simulations based on randomly generated innovations:  zb_simul_example_xx.ipynb
 
 
-**  As a check before uploading to this repository, I ran the example models using both my Python code and Uhlig's MATLAB code and compared, not only output matrices and graphs, but also intermediate matrices.  As best as I can tell, these matrices are identical for all models.  That said, I am aware that there maybe discrepancies between the eigenvalues and eigenvectors computed by Python compared to MATLAB. **
+NOTE:
+
+As a check before uploading to this repository, I ran the example models using both my Python code and Uhlig's MATLAB code. I then  compared, not only output matrices and graphs, but also intermediate matrices.  Best as I can tell, these are identical for all models.  That said, I am aware that there maybe discrepancies between the eigenvalues and eigenvectors computed by Python compared to MATLAB. 
 
