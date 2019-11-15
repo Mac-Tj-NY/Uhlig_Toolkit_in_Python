@@ -22,5 +22,5 @@ CONTENTS OF THIS REPOSITORY:
 
 NOTE:
 
-* As a check before uploading to this repository, I ran the example models using both my Python code and Uhlig's MATLAB code. I then  compared, not only output matrices and graphs, but also intermediate matrices.  Best as I can tell, these are identical for all models.  That said, I am aware that there maybe discrepancies between the eigenvalues and eigenvectors computed by Python compared to MATLAB. 
+* As a check before uploading to this repository, I ran the examples using both my Python code and Uhlig's MATLAB code. I then compared, not only output matrices and graphs, but also step-by-step intermediate matrices.  Best as I can tell, these are identical for all models.  That said, I am aware that there maybe discrepancies between the eigenvalues and eigenvectors computed by Python compared to MATLAB. 
 
