@@ -9,18 +9,18 @@ For more on Uhlig's toolkit see  https://www.wiwi.hu-berlin.de/de/professuren/vw
 
 CONTENTS OF THIS REPOSITORY:
 
-'uhlig_solver_abreviated.ipynb'  Uhlig's solver algorithm using generalized eigenvalue method
+* 'uhlig_solver_abreviated.ipynb'  Uhlig's solver algorithm using generalized eigenvalue method
 
-Other programs:  Detrend_Filters.ipynb, uhlig_impulse_resp_all.ipynb, uhlig_plot_impresp_all.ipynb, uhlig_simul_rand.ipynb, uhlig_plot_simul_all.ipynb
+* Other programs:  Detrend_Filters.ipynb, uhlig_impulse_resp_all.ipynb, uhlig_plot_impresp_all.ipynb, uhlig_simul_rand.ipynb, uhlig_plot_simul_all.ipynb
 
-Unsolved examples:  uhlig_example_xx.ipynb
+* Unsolved examples:  uhlig_example_xx.ipynb
 
-Solved examples with impulse responses:  za_impresp_example_xx.ipynb
+* Solved examples with impulse responses:  za_impresp_example_xx.ipynb
 
-Solved examples with simulations based on randomly generated innovations:  zb_simul_example_xx.ipynb
+* Solved examples with simulations based on randomly generated innovations:  zb_simul_example_xx.ipynb
 
 
 NOTE:
 
-As a check before uploading to this repository, I ran the example models using both my Python code and Uhlig's MATLAB code. I then  compared, not only output matrices and graphs, but also intermediate matrices.  Best as I can tell, these are identical for all models.  That said, I am aware that there maybe discrepancies between the eigenvalues and eigenvectors computed by Python compared to MATLAB. 
+* As a check before uploading to this repository, I ran the example models using both my Python code and Uhlig's MATLAB code. I then  compared, not only output matrices and graphs, but also intermediate matrices.  Best as I can tell, these are identical for all models.  That said, I am aware that there maybe discrepancies between the eigenvalues and eigenvectors computed by Python compared to MATLAB. 
 
