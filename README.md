@@ -13,7 +13,7 @@ CONTENTS OF THIS REPOSITORY:
 
 *  Test
     *  Test 1
-      *  Test a
+         *  Test a
     *  Test 2
 
 * Other programs:  Detrend_Filters.ipynb, uhlig_impulse_resp_all.ipynb, uhlig_plot_impresp_all.ipynb, uhlig_simul_rand.ipynb, uhlig_plot_simul_all.ipynb
