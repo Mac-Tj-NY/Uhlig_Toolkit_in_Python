@@ -25,7 +25,8 @@ CONTENTS OF THIS REPOSITORY:
 NOTE:
 
 * As a check, I ran the examples using both my Python code and Uhlig's MATLAB code. I then compared the output matrices, i.e. PP, QQ, RR, SS, Resp_mat, and verified that these are identical for all models.  
-* I also compare  intermediate matrices, including Psi_mat, Gamma_mat, Theta_mat, Xi_mat, Delta_mat, Lambda_mat, Omega_mat, which are nearly identical for all models.  
-* The exceptions occur in eVecs (i.e. Xi_eigvec) and eVals (i.e. Xi_eigval), because eigenvalues and eigenvectors computed in Python do not always coincide with MATLAB. However, the results of both eigenvalue and eigenvector computations appear to be true and differences in results are not due to differences in precision. These differences have no impact on the solution output of examples 00, 01, 02, 03, 06 and 07.  Similarly, these do not appear to matter for 'Model 1' of example 05. In contrast, they do result in different intermediate and output matrices for 'Model 3 with Sunspots' of example 05.
+* I also compared intermediate matrices, including Psi_mat, Gamma_mat, Theta_mat, Xi_mat, Delta_mat, Lambda_mat, Omega_mat, which are nearly identical for all models.  
+* The exceptions occur in the intermediate matrices eVecs, i.e. Xi_eigvec, and eVals, i.e. Xi_eigval, because eigenvalues and eigenvectors computed in Python do not always coincide with MATLAB. However, the results of both eigenvalue and eigenvector computations appear to be true and differences in results are not due to differences in precision. 
+*  These differences have no impact on the solution output of examples 00, 01, 02, 03, 06 and 07.  Similarly, these do not appear to matter for 'Model 1' of example 05. In contrast, they do result in different intermediate and output matrices for 'Model 3 with Sunspots' of example 05.
 
 
