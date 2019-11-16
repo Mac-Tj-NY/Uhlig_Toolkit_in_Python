@@ -11,13 +11,15 @@ CONTENTS OF THIS REPOSITORY:
 
 * 'uhlig_solver_abreviated.ipynb'  Uhlig's solver algorithm using generalized eigenvalue method
 
-* Other programs:  Detrend_Filters.ipynb, uhlig_impulse_resp_all.ipynb, uhlig_plot_impresp_all.ipynb, uhlig_simul_rand.ipynb, uhlig_plot_simul_all.ipynb
+* Other programs:  Calc_Moments.ipynb, Detrend_Filters.ipynb, uhlig_impulse_resp_all.ipynb, uhlig_plot_impresp_all.ipynb, uhlig_simul_rand.ipynb, uhlig_plot_simul_all.ipynb
 
 * Unsolved examples:  uhlig_example_xx.ipynb
 
 * Solved examples with impulse responses:  za_impresp_example_xx.ipynb
 
 * Solved examples with simulations based on randomly generated innovations:  zb_simul_example_xx.ipynb
+
+* Solved examples filtered into trend and cyclical components with calculated moments:  zc_detmom_example_xx.ipynb 
 
 
 NOTE:
