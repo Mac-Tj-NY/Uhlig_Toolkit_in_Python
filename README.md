@@ -19,7 +19,7 @@ CONTENTS OF THIS REPOSITORY:
 
 * Solved examples with simulations, given randomly generated innovations:  zb_simul_example_xx.ipynb
 
-* Solved examples filtered into trend and cyclical components with calculated moments ofr cyclical components:  zc_detmom_example_xx.ipynb 
+* Solved examples filtered into trend and cyclical components with calculated moments for cyclical components:  zc_detmom_example_xx.ipynb 
 
 
 NOTE:
