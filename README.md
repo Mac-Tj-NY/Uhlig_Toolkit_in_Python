@@ -2,7 +2,7 @@
 
 A Simple Toolkit for Computational Analysis: Solving linear approximations of dynamic stochastic general equilibrium (DSGE) models in Python
 
-An abbreviated translation from MATLAB into Python of Harald Uhlig's solution method, as described in "A Tooklit for Analyzing Nonlinear Dynamic Stochastic Models Easily," Discussion Paper 101, Federal Reserve Bank of Minneapolis, June 1995 (updated 1997) and in his MATLAB code (1995 - 2003). 
+An abbreviated translation from MATLAB into Python of Harald Uhlig's solution method, as described in "A Tooklit for Analyzing Nonlinear Dynamic Stochastic Models Easily," Discussion Paper 101, Federal Reserve Bank of Minneapolis, June 1995 (1997) and in his MATLAB code (1995 - 2003). 
 
 For more on Uhlig's toolkit see  https://www.wiwi.hu-berlin.de/de/professuren/vwl/wipo/research/MATLAB_Toolkit
 
