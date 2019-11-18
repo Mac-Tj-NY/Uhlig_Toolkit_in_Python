@@ -24,7 +24,7 @@ CONTENTS OF THIS REPOSITORY:
 
 NOTES:
 
-Generalized Method:
+Generalized Eigenvalue Eigenvector Method:
 
 * As a check, I ran the examples using both my Python code and Uhlig's MATLAB code. I then compared the output matrices, i.e. PP, QQ, RR, SS, Resp_mat, and verified that these are identical for all models.  
 * I also compared intermediate matrices, including Psi_mat, Gamma_mat, Theta_mat, Xi_mat, Delta_mat, Lambda_mat, Omega_mat, which are nearly identical for all models.  
