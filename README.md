@@ -42,7 +42,7 @@ Generalized Eigenvalue Eigenvector Method:
 
 QZ Decomposition:
 
-*  Using MATLAB,  all examples have identical solution results using the generalized method and the QZ decomposition.
+*  Using MATLAB,  all examples have identical solution results for the generalized method and the QZ decomposition.
 *  For the most part, the QZ decomposition in Python yields similar results to the QZ decomposition in MATLAB.
 *  However,  there are small discrepancies in the intermediate matrices for examples 03, 04_01, 05_02 and 07.  But these are small enough so that the final output matrices are the same.
 *  For example 05_03, however, both intermediate matrices and final output matrices are noticeably different.
