@@ -11,7 +11,7 @@ CONTENTS OF THIS REPOSITORY:
 
 * 'uhlig_solver_abreviated.ipynb'  Uhlig's solver algorithm using the generalized eigenvalue eigenvector method
 
-* 'uhlig_solver_QZ.ipynb'  Uhlig's solver algorithm using a QZ decomposition as discussed by:
+* 'uhlig_solver_QZ.ipynb'  Uhlig's solver algorithm using a QZ decomposition as developed by:
 
   * Chris Sims in "Solving Linear Rational Expectations Models," Computational Economics, October 2002, Vol 20, Issue 1-2, pp 1-20, and in his MATLAB code qzdiv.m and qzswitch.m.  For more of Sim's work see http://www.princeton.edu/~sims/  
   
@@ -38,12 +38,12 @@ Generalized Eigenvalue Eigenvector Method:
 * I also compared intermediate matrices, including Psi_mat, Gamma_mat, Theta_mat, Xi_mat, Delta_mat, Lambda_mat, Omega_mat, which are nearly identical for all models.  
 * Exceptions occur in the intermediate matrices eVecs (Xi_eigvec) and eVals (Xi_eigval) because eigenvalues and eigenvectors computed in Python (numpy.linalg.eig() function) do not always coincide with MATLAB (eig() function). However, the results of both Python and MATLAB eigenvalue and eigenvector computations appear to be true and differences are not due to discrepancies in precision. 
 * These differences have no impact on the solution output of examples 00, 01, 02, 03, 04_01, 04_02, 05_01, 05_02, 06 and 07. 
-* In contrast, they do result in different intermediate and output matrices for 'Model 3 with Sunspots' of example 05.  For instructional purposes, Uhlig set-up 'Model 3' of example 04 incorrectly and the model hangs when solved. He showed the correction in example 05_03. 
+* In contrast, they do result in different intermediate and output matrices for 'Model 3 with Sunspots' of example 05.  Separately, for instructional purposes, Uhlig set-up 'Model 3' of example 04 incorrectly and the model hangs when solved. He showed the correction in example 05_03. 
 
 QZ Decomposition:
 
 *  Using MATLAB,  all examples have identical solution results for the generalized method and the QZ decomposition.
-*  For the most part, the QZ decomposition in Python yields similar results to the QZ decomposition in MATLAB.
+*  For the most part, the QZ decomposition in Python yields identical results to the QZ decomposition in MATLAB.
 *  However,  there are small discrepancies in the intermediate matrices in examples 03, 04_01, 05_02 and 07.  But these are small enough so that the final output matrices are the same.
 *  In example 05_03, however, both intermediate matrices and final output matrices are noticeably different between the Python and MATLAB QZ decomposition solvers.
 
