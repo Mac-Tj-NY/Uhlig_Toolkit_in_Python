@@ -33,7 +33,7 @@ CONTENTS OF THIS REPOSITORY:
 
 COPYRIGHT:
 
-From Harald Uhlig: Feel free to copy, modify and use at your own risk.  However, you are not allowed to sell this software or otherwise impinge on its free distribution.
+(c) Harald Uhlig "Feel free to copy, modify and use at your own risk.  However, you are not allowed to sell this software or otherwise impinge on its free distribution."
 
 NOTES:
 
