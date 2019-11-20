@@ -16,6 +16,8 @@ CONTENTS OF THIS REPOSITORY:
   * Chris Sims in "Solving Linear Rational Expectations Models," Computational Economics, October 2002, Vol 20, Issue 1-2, pp 1-20, and in his MATLAB code qzdiv.m and qzswitch.m.  For more of Sim's work see http://www.princeton.edu/~sims/  
   
   * Paul Klein "Using the Generalized Schur Form to Solve a Multivariate Linear Rational Expectations Model,"  Journal of Economic Dynamics and Control, 24 (2000) 405-1423.  For more of Klein's work see  http://paulklein.ca/newsite/codes/codes.php  
+  
+  * The functions qzdiv() and qzswitch() are adaptations from Sims' MATLAB code into Python made by Kerk Phillips (https://github.com/kerkphil) and Yulong Li (https://github.com/yulong-git).
 
 * Other programs:  Calc_Moments.ipynb, Detrend_Filters.ipynb, uhlig_impulse_resp_all.ipynb, uhlig_plot_impresp_all.ipynb, uhlig_simul_rand.ipynb, uhlig_plot_simul_all.ipynb
 
