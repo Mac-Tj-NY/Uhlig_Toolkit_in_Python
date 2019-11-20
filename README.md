@@ -31,6 +31,9 @@ CONTENTS OF THIS REPOSITORY:
 
 * Solved examples using a QZ decomposition:  zd_qzsoln_example_xx.ipynb
 
+COPYRIGHT:
+
+From Harald Uhlig: Feel free to copy, modify and use at your own risk.  However, you are not allowed to sell this software or otherwise impinge on its free distribution.
 
 NOTES:
 
