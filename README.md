@@ -6,6 +6,11 @@ An abbreviated translation from MATLAB into Python of Harald Uhlig's solution me
 
 For more on Uhlig's toolkit see  https://www.wiwi.hu-berlin.de/de/professuren/vwl/wipo/research/MATLAB_Toolkit
 
+Uhlig used the neoclassical growth model extensively as an example.  Before him, Robert King, Charles Plosser and Sergio Rebelo used the neoclassical growth model to develop methods for the  analysis of business cycles:  
+
+ *  Production, growth and business cycles: I. The basic neoclassical model.  Journal of Monetary Economics (1988) 21:196-232. 
+ *  Production, growth and business cycles: II. New directions.  Journal of Monetary Economics. (1988) 21:309-41. 
+ *  Production, growth and business cycles: Technical Appendix.  Computational Economics (2002) 20: 87–116. 
 
 CONTENTS OF THIS REPOSITORY:
 
