@@ -2,11 +2,12 @@
 
 A Simple Toolkit for Computational Analysis: Solving linear approximations of dynamic stochastic general equilibrium (DSGE) models in Python
 
-An abbreviated translation from MATLAB into Python of Harald Uhlig's solution method, as described in "A Tooklit for Analyzing Nonlinear Dynamic Stochastic Models Easily," Discussion Paper 101, Federal Reserve Bank of Minneapolis, June 1995 (1997) and in his MATLAB code (1995 - 2003) especially solve.m and solve_qz.m. 
+An abbreviated translation from MATLAB into Python of Harald Uhlig's solution method, as described in:
 
-For more on Uhlig's toolkit see  https://www.wiwi.hu-berlin.de/de/professuren/vwl/wipo/research/MATLAB_Toolkit
+ *  "A Tooklit for Analyzing Nonlinear Dynamic Stochastic Models Easily," Discussion Paper 101, Federal Reserve Bank of Minneapolis, June 1995 (1997) and  
+ *  in his MATLAB code (1995 - 2003) especially solve.m and solve_qz.m.  For more on Uhlig's toolkit see  https://www.wiwi.hu-berlin.de/de/professuren/vwl/wipo/research/MATLAB_Toolkit
 
-Uhlig used the neoclassical growth model extensively as an example.  Before him, Robert King, Charles Plosser and Sergio Rebelo used the neoclassical growth model to develop methods for the  analysis of business cycles:  
+Uhlig made extensive use of the neoclassical growth model extensively as an example.  Before him, Robert King, Charles Plosser and Sergio Rebelo used the neoclassical growth model to develop methods for the  analysis of business cycles:  
 
  *  Production, growth and business cycles: I. The basic neoclassical model.  Journal of Monetary Economics (1988) 21:196-232. 
  *  Production, growth and business cycles: II. New directions.  Journal of Monetary Economics. (1988) 21:309-41. 
@@ -56,4 +57,8 @@ QZ Decomposition:
 *  For the most part, the QZ decomposition in Python yields identical results to the QZ decomposition in MATLAB.
 *  However, the functions numpy.linalg.qz() in Python and qz() in MATLAB return small discrepancies in the intermediate matrices in  examples 03, 04_01, 05_02 and 07.  But these are small enough so that the final output matrices are the same.
 *  In example 05_03, however, both intermediate matrices and final output matrices are noticeably different between the Python and MATLAB QZ decomposition solvers.
+
+Moment Calculations were spot checked against EViews.
+
+
 
