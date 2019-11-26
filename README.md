@@ -51,8 +51,8 @@ Generalized Eigenvalue Eigenvector Method:
 * As a check, I ran the examples using both my Python code and Uhlig's MATLAB code. I then compared the output matrices, i.e. PP, QQ, RR, SS, Resp_mat, and verified that these are identical for all models.  
 * I also compared intermediate matrices, including Psi_mat, Gamma_mat, Theta_mat, Xi_mat, Delta_mat, Lambda_mat, Omega_mat, which are nearly identical for all models.  
 * Exceptions occur in the intermediate matrices eVecs (Xi_eigvec) and eVals (Xi_eigval) because eigenvalues and eigenvectors computed in Python (numpy.linalg.eig() function) do not always coincide with MATLAB (eig() function). However, the results of both Python and MATLAB eigenvalue and eigenvector computations appear to be true and differences are not due to discrepancies in precision. 
-* These differences have no impact on the solution output of examples 00, 01, 02, 03, 04_01, 04_02, 05_01, 05_02, 06 and 07. 
-* In contrast, they do result in different intermediate and output matrices for 'Model 3 with Sunspots' of example 05.  Separately, for instructional purposes, Uhlig set-up 'Model 3' of example 04 incorrectly and the model hangs when solved. He showed the correction in example 05_03. 
+* These differences have no impact on the solution output of example models, with one exception. 
+* They do result in different intermediate and output matrices for 'Model 3 with Sunspots' of example 05.  Separately, for instructional purposes, Uhlig set-up 'Model 3' of example 04 incorrectly and finds that the model hangs when solved. He showed the correction in example 05_03. 
   
 QZ Decomposition:
   
@@ -61,7 +61,7 @@ QZ Decomposition:
 *  However, the functions numpy.linalg.qz() in Python and qz() in MATLAB return small discrepancies for intermediate matrices in  examples 03, 04_01, 05_02 and 07.  But these are small enough so that the final output matrices are the same.
 *  In example 05_03, however, both intermediate matrices and final output matrices are noticeably different between the Python and MATLAB QZ decomposition solvers.
   
-Moment Calculations were spot checked against EViews.
+Moment Calculations were spot checked using EViews.
   
 
 
