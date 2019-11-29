@@ -18,7 +18,7 @@ CONTENTS OF THIS REPOSITORY:
  
 * 'uhlig_solver_abreviated.ipynb'  Uhlig's solver algorithm using the generalized eigenvalue eigenvector method
  
-* 'uhlig_solver_QZ.ipynb'  Uhlig's solver algorithm using a QZ decomposition as developed by:
+* 'uhlig_solver_QZ.ipynb'  Uhlig's solver algorithm modified to use a QZ decomposition, based on:
  
   * Chris Sims in "Solving Linear Rational Expectations Models," Computational Economics, October 2002, Vol 20, Issue 1-2, pp 1-20, and in his MATLAB code qzdiv.m and qzswitch.m.  For more of Sim's work see http://www.princeton.edu/~sims/  
    
