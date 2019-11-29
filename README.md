@@ -7,7 +7,7 @@ An abbreviated translation from MATLAB into Python of Harald Uhlig's solution me
  *  "A Tooklit for Analyzing Nonlinear Dynamic Stochastic Models Easily," Discussion Paper 101, Federal Reserve Bank of Minneapolis, June 1995 (1997) and  
  *  in his MATLAB code (1995 - 2003) specifically solve.m and solve_qz.m.  For more on Uhlig's toolkit see  https://www.wiwi.hu-berlin.de/de/professuren/vwl/wipo/research/MATLAB_Toolkit
 
-Uhlig made extensive use of the neoclassical growth model as an example.  Before him, Robert King, Charles Plosser and Sergio Rebelo used the neoclassical growth model to develop methods for the  analysis of business cycles:  
+Uhlig, like others, made good use of the neoclassical growth model as an example.  Before him, Robert King, Charles Plosser and Sergio Rebelo used the neoclassical growth model to develop methods for the  analysis of business cycles:  
 
  *  Production, growth and business cycles: I. The basic neoclassical model.  Journal of Monetary Economics (1988) 21:196-232. 
  *  Production, growth and business cycles: II. New directions.  Journal of Monetary Economics. (1988) 21:309-41. 
@@ -34,7 +34,7 @@ CONTENTS OF THIS REPOSITORY:
   
 * Solved examples with simulations, given randomly generated innovations:  zb_simul_example_xx.ipynb
   
-* Solved examples filtered into trend and cyclical components with calculated moments for cyclical components:  zc_detmom_example_xx.ipynb 
+* Solved examples filtered into trend and cyclical components with calculated moments for cyclical components.  Log first differences provided for comparison:  zc_detmom_example_xx.ipynb 
   
 * Solved examples using a QZ decomposition:  zd_qzsoln_example_xx.ipynb
   
